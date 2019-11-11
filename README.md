@@ -1,6 +1,8 @@
 # tgif-ssr
 
-> Thank God It&#39;s Friday
+Thank God It&#39;s Friday !
+
+Deployed on [Netlify](https://loving-beaver-048871.netlify.com/)
 
 ## Build Setup
 
