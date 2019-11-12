@@ -11,8 +11,6 @@ import TGIF from '~/components/TGIF.vue'
 
 const GIPHY_URL = "https://api.giphy.com/v1/gifs/search?api_key=KQzPKVUFZUIpii6iYFGNphMc7ujV6UcR&q=TGIF&rating=G&limit=5"
 
-import gifs from './hardcoded.js'
-console.log(gifs)
 export default {
 
   components: {
