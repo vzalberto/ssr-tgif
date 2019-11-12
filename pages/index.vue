@@ -1,30 +1,6 @@
 <template>
   <div class="container">
-    <div>
-      
-      <h1 class="title">
-        TGIF !
-      </h1>
-
       <TGIF :gifs="loadedGifs" />
-
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -52,17 +28,10 @@ export default {
 
   async asyncData () {
     const { data } = await axios.get(GIPHY_URL)
-    console.log(data)
     return {
       loadedGifs : data.data
     }
   },
-
-  // beforeMount () {
-  //     axios
-  //       .get(GIPHY_URL)
-  //       .then(res => this.gifs = res.data)
-  // },
 
 }
 </script>
