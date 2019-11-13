@@ -2,8 +2,7 @@
 	<div class="box">
 			<div class="gif" v-bind:key="gif.id" v-for="gif in gifs">
 				<img :src=gif.images.fixed_height.url />
-			</div>
-			
+			</div>			
 	</div>
 </template>
 

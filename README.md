@@ -13,9 +13,33 @@
     }
   }
 ```
+• Template de `<TGIF />` 
 
-• El en el footer tenemos un link a este post.
+```html
+<template>
+
+ <div class="box">
+
+  <div 
+   class="gif"
+   v-bind:key="gif.id"
+   v-for="gif in gifs">
+
+   <img 
+    :src=gif.images.fixed_height.url />
+
+   </div>	
+
+  </div>
+
+</template>
+```
 
 • Correr la aplicación en local con yarn:
 
 > yarn dev
+
+
+• Se genera el directorio `dist` con este comando en Netlify:
+
+> yarn generate
