@@ -27,6 +27,9 @@
 		text-decoration: none;
 		text-align: center;
 		padding: 10px;
+
+    border:10px solid none;
+    border-radius: 100px;
 	}
 
 	a:hover {
