@@ -13,7 +13,7 @@
 </template>
 ```
 
-• Dentro de `<TGIFLogo />` me gustaría lograr un component basado en zfont: [https://codepen.io/vzalberto/pen/gOOdvBq](https://codepen.io/vzalberto/pen/gOOdvBq)
+• Dentro de `<TGIFLogo />` me gustaría lograr un header basado en zfont como en este ejemplo: [https://codepen.io/vzalberto/pen/gOOdvBq](https://codepen.io/vzalberto/pen/gOOdvBq)
 
 
 • El arreglo de gifs se obtiene con el método de Nuxt.js, `asyncData`, y se envía como prop a `<TGIF />`.
