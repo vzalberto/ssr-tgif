@@ -1,6 +1,8 @@
 <template>
   <div class="container">
+      <TGIFLogo :text="'TGIF!'" />
       <TGIF :gifs="loadedGifs" />
+      <SharingIsCaring />
   </div>
 </template>
 
@@ -9,13 +11,18 @@ import axios from 'axios'
 import Logo from '~/components/Logo.vue'
 import TGIF from '~/components/TGIF.vue'
 
+import TGIFLogo from '~/components/TGIFLogo.vue'
+import SharingIsCaring from '~/components/SharingIsCaring.vue'
+
 const GIPHY_URL = "https://api.giphy.com/v1/gifs/search?api_key=KQzPKVUFZUIpii6iYFGNphMc7ujV6UcR&q=TGIF&rating=G&limit=5"
 
 export default {
 
   components: {
     Logo,
-    TGIF
+    TGIF,
+    TGIFLogo,
+    SharingIsCaring,
   },
 
   data () {
@@ -39,6 +46,7 @@ export default {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
