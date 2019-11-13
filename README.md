@@ -3,9 +3,15 @@
 
 • Me gustaría integrar un header con zfont [https://codepen.io/vzalberto/pen/gOOdvBq](https://codepen.io/vzalberto/pen/gOOdvBq)
 
-• El arreglo de gifs se obtiene con el método de Nuxt.JS, ```asyncData```.
+• El arreglo de gifs se obtiene con el método de Nuxt.js, ```asyncData```.
 
 ```javascript
+  data () {
+    return {
+      loadedGifs : []
+    }
+  },
+
   async asyncData () {
     const { data } = await axios.get(GIPHY_URL)
     return {
