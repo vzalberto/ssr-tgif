@@ -1,7 +1,7 @@
 <template>
 	<div class="box">
 			<div class="gif" v-bind:key="gif.id" v-for="gif in gifs">
-				<img :src=gif.images.fixed_height.url />
+					<img @click="openGiphy(gif.images.fixed_height.url)" :src=gif.images.fixed_height.url />
 			</div>			
 	</div>
 </template>
@@ -14,7 +14,14 @@ export default {
     	type: Array,
     	required: true
   	},
-  }
+  },
+
+    methods:{
+      openGiphy: function (url) {   
+          window.open(url, "_blank");    
+      }
+    }
+
 }
 </script>
 
@@ -35,6 +42,10 @@ export default {
 	.box {
 		display: flex;
   		flex-wrap: wrap-reverse;
+	}
+
+	a {
+		display: block;	
 	}
 
 	.gif {
