@@ -1,8 +1,6 @@
 
 <i>[Link a TGIF! en Netlify](https://loving-beaver-048871.netlify.com/)</i>
 
-• Me gustaría integrar un header con zfont [https://codepen.io/vzalberto/pen/gOOdvBq](https://codepen.io/vzalberto/pen/gOOdvBq)
-
 • Así se ve `pages/index.vue`
 
 ```html
@@ -15,7 +13,10 @@
 </template>
 ```
 
-• El arreglo de gifs se obtiene con el método de Nuxt.js, `asyncData`.
+• Dentro de `<TGIFLogo /> me gustaría lograr un component basado en zfont [https://codepen.io/vzalberto/pen/gOOdvBq](https://codepen.io/vzalberto/pen/gOOdvBq)
+
+
+• El arreglo de gifs se obtiene con el método de Nuxt.js, `asyncData`, y se envía como prop a `<TGIF />`.
 
 ```javascript
 export default {
