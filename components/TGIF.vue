@@ -28,6 +28,10 @@ export default {
 
 	}
 
+	img:hover {
+		box-shadow: 10px 10px #999;
+	}
+
 	.box {
 		display: flex;
   		flex-wrap: wrap-reverse;
@@ -36,4 +40,6 @@ export default {
 	.gif {
 		flex-grow: 1
 	}
+
+
 </style>

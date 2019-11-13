@@ -27,14 +27,14 @@
 		text-decoration: none;
 		text-align: center;
 		padding: 10px;
-
-    border:10px solid none;
-    border-radius: 100px;
+	    border:10px solid none;
+	    border-radius: 100px;
 	}
 
 	a:hover {
 		background-color: black;
 		color: white;
+		box-shadow: 10px 10px #aaa;
 	}
 
 </style>

@@ -23,4 +23,17 @@ export default {
 		display: flex;
 	}
 
+  h1 {
+    padding: 10px;
+  }
+
+  h1:hover {
+    cursor: pointer;
+    border:10px solid none;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    box-shadow: 10px 10px #aaa;
+  }
+
 </style>
