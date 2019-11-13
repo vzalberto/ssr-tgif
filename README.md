@@ -33,9 +33,9 @@ export default {
   },
 
   async asyncData () {
-    const { data } = await axios.get(GIPHY_URL)
+    const { res } = await axios.get(GIPHY_URL)
     return {
-      loadedGifs : data.data
+      loadedGifs : res.data
     }
   }
 }
