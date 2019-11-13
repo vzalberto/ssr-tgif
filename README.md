@@ -58,7 +58,7 @@ export default {
 
   </div>
 ```
-• Los gifs se ajustan automáticamente en nuevas líneas con la propiedad `flex-wrap: wrap-reverse`:
+• Los gifs se acomodan automáticamente en nuevas líneas con la propiedad `flex-wrap: wrap-reverse
 
 ```css
 	.box {
