@@ -2,7 +2,7 @@
 
 	<div class="box">
 		<ul>
-			<li><a href="https://github.com/vzalberto/ssr-tgif" target="_blank">?</a></li>
+			<li><a href="https://github.com/vzalberto/ssr-tgif" target="_blank"><b>?</b></a></li>
 		</ul>
 	</div>
 
@@ -19,19 +19,19 @@
 		list-style-type: none;
 		padding: 0;
 		display: flex;
-		background-color: yellow;
-	}
-
-	li {
-		flex-grow: 1;
-		border: 1px solid blue;
 	}
 
 	a {
 		display: block;
+		font-size: 2em;
 		text-decoration: none;
 		text-align: center;
 		padding: 10px;
+	}
+
+	a:hover {
+		background-color: black;
+		color: white;
 	}
 
 </style>
