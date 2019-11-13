@@ -19,7 +19,14 @@ export default {
 </script>
 
 <style>
-	img { cursor: pointer; }
+	img { 
+		cursor: pointer;
+		margin: 1em;
+
+    border:10px solid #a20;
+    border-radius: 100px;
+
+	}
 
 	.box {
 		display: flex;
