@@ -10,7 +10,7 @@
   <div class="container">
       <TGIFLogo :text="'TGIF!'" />
       <TGIF :gifs="loadedGifs" />
-      <SharingIsCaring />
+      <TGIFFooter />
   </div>
 </template>
 ```
@@ -18,6 +18,14 @@
 • El arreglo de gifs se obtiene con el método de Nuxt.js, `asyncData`.
 
 ```javascript
+export default {
+
+  components: {
+    TGIF,
+    TGIFLogo,
+    TGIFFooter,
+  },
+
   data () {
     return {
       loadedGifs : []
@@ -30,6 +38,7 @@
       loadedGifs : data.data
     }
   }
+}
 ```
 • Template de `<TGIF />` 
 
