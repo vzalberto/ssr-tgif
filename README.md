@@ -3,7 +3,19 @@
 
 • Me gustaría integrar un header con zfont [https://codepen.io/vzalberto/pen/gOOdvBq](https://codepen.io/vzalberto/pen/gOOdvBq)
 
-• El arreglo de gifs se obtiene con el método de Nuxt.js, ```asyncData```.
+• Así se ve `pages/index.vue`
+
+```html
+<template>
+  <div class="container">
+      <TGIFLogo :text="'TGIF!'" />
+      <TGIF :gifs="loadedGifs" />
+      <SharingIsCaring />
+  </div>
+</template>
+```
+
+• El arreglo de gifs se obtiene con el método de Nuxt.js, `asyncData`.
 
 ```javascript
   data () {
