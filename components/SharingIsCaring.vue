@@ -2,9 +2,6 @@
 
 	<div class="box">
 		<ul>
-			<li><a href="#">w</a></li>
-			<li><a href="#">t</a></li>
-			<li><a href="#">f</a></li>
 			<li><a href="#">?</a></li>
 		</ul>
 	</div>
