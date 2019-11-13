@@ -13,7 +13,7 @@
 </template>
 ```
 
-• Dentro de `<TGIFLogo />` me gustaría lograr un component basado en zfont [https://codepen.io/vzalberto/pen/gOOdvBq](https://codepen.io/vzalberto/pen/gOOdvBq)
+• Dentro de `<TGIFLogo />` me gustaría lograr un component basado en zfont: [https://codepen.io/vzalberto/pen/gOOdvBq](https://codepen.io/vzalberto/pen/gOOdvBq)
 
 
 • El arreglo de gifs se obtiene con el método de Nuxt.js, `asyncData`, y se envía como prop a `<TGIF />`.
@@ -41,11 +41,9 @@ export default {
   }
 }
 ```
-• Template de `<TGIF />` 
+• Este es el `<template/>` de `<TGIF />` 
 
 ```html
-<template>
-
  <div class="box">
 
   <div 
@@ -59,8 +57,18 @@ export default {
    </div>	
 
   </div>
+```
+• Los gifs se ajustan automáticamente en nuevas líneas con la propiedad `flex-wrap: wrap-reverse´:
 
-</template>
+```css
+	.box {
+		display: flex;
+  		flex-wrap: wrap-reverse;
+	}
+
+	.gif {
+		flex-grow: 1
+	}
 ```
 
 • Correr la aplicación en local con yarn:
