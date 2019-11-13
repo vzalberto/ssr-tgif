@@ -1,24 +1,21 @@
-# tgif-ssr
 
-Thank God It&#39;s Friday !
+<i>[Link a TGIF! en Netlify](https://loving-beaver-048871.netlify.com/)</i>
 
-Deployed on [Netlify](https://loving-beaver-048871.netlify.com/)
+• Me gustaría integrar un header con zfont [https://codepen.io/vzalberto/pen/gOOdvBq](https://codepen.io/vzalberto/pen/gOOdvBq)
 
-## Build Setup
+• El arreglo de gifs se obtiene con el método de Nuxt.JS, ```asyncData```.
 
-``` bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+```javascript
+  async asyncData () {
+    const { data } = await axios.get(GIPHY_URL)
+    return {
+      loadedGifs : data.data
+    }
+  }
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+• El en el footer tenemos un link a este post.
+
+• Correr la aplicación en local con yarn:
+
+> yarn dev

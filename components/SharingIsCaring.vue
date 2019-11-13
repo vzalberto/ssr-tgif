@@ -2,7 +2,7 @@
 
 	<div class="box">
 		<ul>
-			<li><a href="#">?</a></li>
+			<li><a href="https://github.com/vzalberto/ssr-tgif" target="_blank">?</a></li>
 		</ul>
 	</div>
 
