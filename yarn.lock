@@ -4159,9 +4159,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.15.0, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.15, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 loose-envify@^1.0.0:
   version "1.4.0"
@@ -6770,6 +6770,11 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+typr.js@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/typr.js/-/typr.js-1.0.0.tgz#0087fd0cf59d2d1e71a4a16f963c5227c78528e9"
+  integrity sha512-1fcCBnRerF4hLBrNVZyf6OwpWummpKomQ7N7OuWf3qzi4+XNSxtOnn3zvQlSwpV5SW/b0umULr5hQwOUNkZZUg==
+
 ua-parser-js@^0.7.20:
   version "0.7.20"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.20.tgz#7527178b82f6a62a0f243d1f94fd30e3e3c21098"
@@ -7286,3 +7291,15 @@ yallist@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
+
+zdog@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/zdog/-/zdog-1.1.2.tgz#e2193d9d2cfef30f516d4ba8f02d53b0b846fa53"
+  integrity sha512-bWObLl2t1M8RB8kNcOkAFLn52H8n8Hxd+DvYpExCwGPzFOEIJ9COFhG9sjoOV9Da3cv4d6BqFBICNc2Pz37YQw==
+
+zfont@^1.2.7:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/zfont/-/zfont-1.2.7.tgz#3facf0e86be4cd51cc2d19bf748bd0580f596562"
+  integrity sha512-d+cTHEKRpDr+CPI/3Euf93Y7rZuWN7zZKkNUtlJw6lXNR57Ghgy+En44Zo4EOOpfbamjTtGUDr7aQKr//kFKOw==
+  dependencies:
+    typr.js "^1.0.0"
