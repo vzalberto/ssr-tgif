@@ -6770,10 +6770,15 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+typr.js@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/typr.js/-/typr.js-1.0.0.tgz#0087fd0cf59d2d1e71a4a16f963c5227c78528e9"
+  integrity sha512-1fcCBnRerF4hLBrNVZyf6OwpWummpKomQ7N7OuWf3qzi4+XNSxtOnn3zvQlSwpV5SW/b0umULr5hQwOUNkZZUg==
+
 ua-parser-js@^0.7.20:
-  version "0.7.20"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.20.tgz#7527178b82f6a62a0f243d1f94fd30e3e3c21098"
-  integrity sha512-8OaIKfzL5cpx8eCMAhhvTlft8GYF8b2eQr6JkCyVdrgjcytyOmPCXrqXFcUnhonRpLlh5yxEZVohm6mzaowUOw==
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 uglify-js@3.4.x:
   version "3.4.10"
@@ -7286,3 +7291,15 @@ yallist@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
+
+zdog@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/zdog/-/zdog-1.1.2.tgz#e2193d9d2cfef30f516d4ba8f02d53b0b846fa53"
+  integrity sha512-bWObLl2t1M8RB8kNcOkAFLn52H8n8Hxd+DvYpExCwGPzFOEIJ9COFhG9sjoOV9Da3cv4d6BqFBICNc2Pz37YQw==
+
+zfont@^1.2.7:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/zfont/-/zfont-1.2.8.tgz#dfe82857842cdcf7e07e92d8949d178331ec7fde"
+  integrity sha512-M30+Hi//Eea8ywh11FiR8W1W3ooC89lR4CrjTUzI5x+JTvezw7qN8jQBxFNwbh6okQcv5DG4h0F1ZkXJQROHBA==
+  dependencies:
+    typr.js "^1.0.0"
